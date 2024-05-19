@@ -1,0 +1,9 @@
+<body>
+  <h1>{{ title }}</h1>
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Gib deinen Namen ein." [(ngModel)]="name">
+  </mat-form-field>
+  <button (click)="setName()">Bestätigen</button>
+  <h1>{{ greeting }}</h1>
+</body>
